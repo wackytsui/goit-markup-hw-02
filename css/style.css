@@ -1,20 +1,32 @@
 .logo1 {
-font-size: 18px;
+font-size: 30px;
 font-weight: 800;
 line-height: 21px;
 letter-spacing: 0.03em;
 text-align: left;
 color:  rgba(77, 90, 229, 1);
+font-family: 'Raleway', sans-serif;
 }
 .logo2{
     color:  black;
-font-size: 18px;
+font-size: 30px;
 font-weight: 800;
 line-height: 21px;
 letter-spacing: 0.03em;
 text-align: left;
+font-family: 'Raleway', sans-serif;
+}
+body{
+    font-family: 'Raleway';
 }
 *{
     text-decoration: none;
-    font-family: 'Raleway', sans-serif;
+    text-decoration-style: none;
+    list-style: none;
+}
+[href*="port"],
+[href*="info"],
+[href*="contact"],
+[href*="num"]{
+    color:black;
 }
