@@ -1,5 +1,4 @@
 .logo1 {
-    font-family: Raleway;
 font-size: 18px;
 font-weight: 800;
 line-height: 21px;
@@ -14,8 +13,8 @@ font-weight: 800;
 line-height: 21px;
 letter-spacing: 0.03em;
 text-align: left;
-font-family: Ralaway;
 }
-.link1{
+*{
     text-decoration: none;
+    font-family: 'Raleway', sans-serif;
 }
