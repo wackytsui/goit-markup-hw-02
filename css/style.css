@@ -1,20 +1,24 @@
 .logo1 {
-font-size: 20px;
-font-weight: 800;
-line-height: 21px;
-letter-spacing: 0.03em;
-text-align: left;
-color:  rgba(77, 90, 229, 1);
-font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: rgba(77, 90, 229, 1);
+    font-family: 'Raleway', sans-serif;
 }
 .logo2{
     color:  black;
-font-size: 20px;
-font-weight: 800;
-line-height: 21px;
-letter-spacing: 0.03em;
-text-align: left;
-font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1{
+    background: rgba(46, 47, 66, 1);
 }
 
 body{
@@ -25,6 +29,7 @@ body{
     text-decoration: none;
     text-decoration-style: none;
     list-style: none;
+    padding: 0%;
 }
 
 [href*="port"],
@@ -34,8 +39,28 @@ body{
     color:black;
 }
 footer{
-    background: rgba(46, 47, 66, 1);;
+    background: rgba(46, 47, 66, 1);
 }
 #studio{
+    color: white;
+}
+/* button order service*/
+.button{
+    color: white;
+    background-color: rgba(77, 90, 229, 1);
+    border-radius: 5px;
+    border: none;
+    
+}
+.button:hover{
+    opacity: 80%;
+    cursor: pointer;
+}
+.button:active{
+    transform: translateY(4px);
+}
+/* h1 */
+.head1{
+    text-align: center;
     color: white;
 }
