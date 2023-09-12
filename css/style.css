@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway &display=swap');
+/*style for logo/text*/
 .logo1 {
     font-size: 20px;
     font-weight: 800;
@@ -19,47 +20,57 @@
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
 }
+
+/*font style for nav and contacts*/
 nav,
 .contacts{
     font-family: 'Raleway',sans-serif;
     font-weight: 800;
 }
+
+/*h1 background*/
 h1{
     background: rgba(46, 47, 66, 1);
 }
 
 body{
-    font-family: 'Raleway', sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 500;
 }
-/* all ul */
-a,
-ul{
+
+/* all ul & links */
+a,ul{
     text-decoration: none;
     text-decoration-style: none;
     list-style: none;
     padding: 0%;
 }
+
+/*studio links*/
 .std{
     color: rgba(77, 90, 229, 1);
 }
+
+/*color of the links*/
 [href*="port"],
 [href*="info"],
 [href*="contact"],
 [href*="num"]{
     color:black;
 }
+
 footer{
     background: rgba(46, 47, 66, 1);
 }
 #studio{
     color: white;
 }
+
 /* button order service*/
 .button{
     color: white;
     background-color: rgba(77, 90, 229, 1);
-    border-radius: 6px;
+    border-radius: 5px;
     border: none;
     cursor: pointer;
 }
@@ -69,12 +80,26 @@ footer{
 .button:active{
     transform: translateY(4px);
 }
+
 /* h1 */
 .head1{
     text-align: center;
     color: white;
 }
+
+/*section header style*/
 .section2{
     text-transform: capitalize;
     text-align: center;
+}
+
+/*footer paragraph*/
+.footer{
+    color: white;
+    line-height: 1.5;
+}
+
+/*links hover*/
+a:hover{
+    color: rgba(77, 90, 229, 1);
 }
