@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway &display=swap');
 .logo1 {
     font-size: 20px;
     font-weight: 800;
@@ -6,6 +7,7 @@
     text-align: left;
     color: rgba(77, 90, 229, 1);
     font-family: 'Raleway', sans-serif;
+    font-weight: 800;
 }
 .logo2{
     color:  black;
@@ -15,23 +17,32 @@
     letter-spacing: 0.03em;
     text-align: left;
     font-family: 'Raleway', sans-serif;
+    font-weight: 800;
 }
-
+nav,
+.contacts{
+    font-family: 'Raleway',sans-serif;
+    font-weight: 800;
+}
 h1{
     background: rgba(46, 47, 66, 1);
 }
 
 body{
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
 }
-
-*{
+/* all ul */
+a,
+ul{
     text-decoration: none;
     text-decoration-style: none;
     list-style: none;
     padding: 0%;
 }
-
+.std{
+    color: rgba(77, 90, 229, 1);
+}
 [href*="port"],
 [href*="info"],
 [href*="contact"],
@@ -48,13 +59,12 @@ footer{
 .button{
     color: white;
     background-color: rgba(77, 90, 229, 1);
-    border-radius: 5px;
+    border-radius: 6px;
     border: none;
-    
+    cursor: pointer;
 }
 .button:hover{
     opacity: 80%;
-    cursor: pointer;
 }
 .button:active{
     transform: translateY(4px);
@@ -63,4 +73,7 @@ footer{
 .head1{
     text-align: center;
     color: white;
+}
+.section2{
+    text-align: center;
 }
