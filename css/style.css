@@ -75,5 +75,6 @@ footer{
     color: white;
 }
 .section2{
+    text-transform: capitalize;
     text-align: center;
 }
