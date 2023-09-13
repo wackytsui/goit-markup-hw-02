@@ -72,15 +72,16 @@ footer{
     color: white;
     background-color: rgba(77, 90, 229, 1);
     border-radius: 5px;
-    border: none;
+    border-color: rgba(77, 90, 229, 1);
     cursor: pointer;
 }
+/* button hovering
 .button:hover{
     opacity: 80%;
 }
 .button:active{
     transform: translateY(4px);
-}
+}*/
 
 /* h1 */
 .head1{
