@@ -1,107 +1,86 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway &display=swap');
-/*style for logo/text*/
-.logo1 {
-    font-size: 20px;
-    font-weight: 800;
-    line-height: 21px;
-    letter-spacing: 0.03em;
-    text-align: left;
-    color: rgba(77, 90, 229, 1);
-    font-family: 'Raleway', sans-serif;
-    font-weight: 800;
-}
-.logo2{
-    color:  black;
-    font-size: 20px;
-    font-weight: 800;
-    line-height: 21px;
-    letter-spacing: 0.03em;
-    text-align: left;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 800;
-}
-
-/*font style for nav and contacts*/
-nav,
-.contacts{
-    font-family: 'Raleway',sans-serif;
-    font-weight: 800;
-}
-
-/*h1 background*/
-h1{
-    background: rgba(46, 47, 66, 1);
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Raleway:&display=swap');
 body{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: 500;
+    font-weight: 400;
+    line-height: 30px;
 }
-
-/* all ul & links */
-a,ul{
-    text-decoration: none;
-    text-decoration-style: none;
-    list-style: none;
-    padding: 0%;
+.logo{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+}
+.logo-web{
+    color: rgb(80, 25, 231);
+}
+.logo-studio{
     color: black;
 }
-
-/*studio links*/
-.std{
-    color: rgba(77, 90, 229, 1);
-}
-
-/*color of the links*/
-[href*="port"],
-[href*="info"],
-[href*="contact"],
-[href*="num"]{
-    color:black;
-}
-
-footer{
-    background: rgba(46, 47, 66, 1);
-}
-#studio{
+.logo-studio-footer{
     color: white;
 }
-
-/* button order service*/
-.button{
-    color: white;
-    background-color: rgba(77, 90, 229, 1);
-    border-radius: 5px;
-    border-color: rgba(77, 90, 229, 1);
-    cursor: pointer;
+.link-nav-parent{
+    margin-top: 0%;
+    padding: 0%;
+    font-weight: 500;
+    text-decoration-style: none;
+    font-family: 'Raleway', sans-serif;
+    /*
+    list-style: none;
+    align-items: center;
+    display: flex;
+    gap: 50px;*/
 }
-/* button hovering
-.button:hover{
-    opacity: 80%;
-}
-.button:active{
-    transform: translateY(4px);
-}*/
 
-/* h1 */
-.head1{
+.link-nav{
+    color: black;
+    text-decoration:none;
+}
+.studio{
+    color: rgb(80, 25, 231);
+}
+.link-nav:hover{
+    color: rgb(77, 90, 229);
+}
+.head-banner{
+    background-color: rgb(46, 47, 66);
+}
+.head-banner-body{
     text-align: center;
-    color: white;
-}
-
-/*section header style*/
-.section2{
     text-transform: capitalize;
+}
+.head-banner-text{
+    text-transform: uppercase;
+    color: white;
     text-align: center;
 }
-
-/*footer paragraph*/
-.footer{
+.head-banner-button{
+    cursor: pointer;
     color: white;
-    line-height: 1.5;
+    background-color: rgb(77, 90, 229);
+    border-radius: 5px ;
+    border-color: rgb(77, 90, 229);
 }
-
-/*links hover*/
-a:hover{
-    color: rgba(77, 90, 229, 1);
+.list-text{
+    list-style-type: none;
+    text-decoration-style: none;
+    padding: 0;
+}
+.list-picture{
+    list-style-type: none;
+    padding: 0%;
+}
+.head-banner-body-text,
+.head-banner-body-picture{
+    background-color: rgb(255, 255, 255);
+}
+.head-banner-body-team{
+    border-color: rgba(244, 244, 253, 1);
+    border-style:solid;
+    box-sizing: border-box;
+    background-color: rgba(244, 244, 253, 1);
+}
+.footer-page{
+    display: block;
+    box-sizing: border-box;
+    color: white;
+    background-color: rgb(46, 47, 66);
 }
