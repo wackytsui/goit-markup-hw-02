@@ -71,7 +71,16 @@ body{
     background: var(--NAVY-BLUE);
 }
 .head-banner-body{
+    color: var(--NAVY-BLUE, #2E2F42);
     text-align: center;
+
+    /* Header 2 */
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 111.111% */
+    letter-spacing: 0.72px;
     text-transform: capitalize;
 }
 .head-banner-text{
@@ -93,9 +102,53 @@ body{
     text-decoration-style: none;
     padding: 0;
 }
+.list-text p{
+    color: var(--SLATE, #434455);
+
+    /* Body */
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.32px;
+}
+.list-text h3{
+    color: var(--NAVY-BLUE, #2E2F42);
+
+    /* Header 3 */
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 120% */
+    letter-spacing: 0.4px;
+}
 .list-picture{
     list-style-type: none;
     padding: 0%;
+}
+.list-picture h2{
+    color: var(--NAVY-BLUE, #2E2F42);
+
+    /* Header 3 */
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 120% */
+    letter-spacing: 0.4px;
+}
+.list-picture p{
+    color: var(--SLATE, #434455);
+
+    /* Body */
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.32px;
 }
 .head-banner-body-text,
 .head-banner-body-picture{
@@ -108,8 +161,16 @@ body{
     background-color: var(--CLOUD);
 }
 .footer-page{
-    display: block;
-    box-sizing: border-box;
-    color: var(--CLOUD);
     background: var(--NAVY-BLUE);
+}
+.footer-page p{
+    color: var(--CLOUD, #F4F4FD);
+
+    /* Body */
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.32px;
 }
